@@ -122,8 +122,6 @@ public class WebDataLoader : MonoBehaviour
 
             TextUpdate("Recieved: " + _webtext.Substring(0, dispLength));
 
-            yield return new WaitForSeconds(0.5f);
-
             DoThingsWithWebData();
         }
     }
