@@ -12,6 +12,7 @@ With this app I wanted to explore using Unity3D to view and navigate these datas
 
 The data (online .csv text file) is loaded durign startup and parsed into a list based datastructure. Through a UI the user can select a country and 2 data dimensions and add the data to the current view. The data will be displayed as a sreies of spheres in the 3D environment. Each sphere (along the x axis) represents one day. The first selected data dimension will be displayed on the y-axis, as height of the spheres, while the second dimension defines the size of the spheres. Data-dimensions are displayed as realative height/size not as absolute values (to deal with the extremely large range of values). The scale is defined by the first dataset added to thee current view. Two text boxes allow the user to adjust the scale for the next series to be added. 
 
+The WebGL implementation was built using the [better-unity-webgl-template](https://github.com/greggman/better-unity-webgl-template), which worked amazingly well for me. 
 
 ## To Do
 - add axes, lables, references. 
